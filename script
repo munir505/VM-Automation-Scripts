@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo useradd munir
 sudo yum install git -y
 git clone https://github.com/munir505/Go-Server-Service
 cp -r ~/Go-Server-Service/static ~/
